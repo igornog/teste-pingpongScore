@@ -1,19 +1,23 @@
-.App {
+body {
+  margin: 0;
+}
+
+.Score {
   text-align: center;
 }
 
-.App-logo {
+.Score-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .Score-logo {
+    animation: Score-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
+.Score-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +28,6 @@
   color: white;
 }
 
-.App-link {
+.Score-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
